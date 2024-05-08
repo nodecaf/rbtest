@@ -1,4 +1,4 @@
-FROM golang:1.22-alpine
+FROM jenkins/jenkins:2.426.2-lts-jdk17
 
 ADD main.go
 CMD go build main.go
